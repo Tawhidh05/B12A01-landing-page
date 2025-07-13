@@ -10,7 +10,7 @@ body {
 }
 
 /* Color Property */
-.primecol {
+.prime {
     color: #4E47FF;
 }
 .black {
@@ -68,6 +68,7 @@ header {
 .banner h1{
     font-weight: bold;
     font-size: 65px;
+    padding-bottom: 37px;
 }
 
 /* Action Section */
@@ -101,3 +102,42 @@ header {
     border-radius: 48px;
 }
 
+/* Productive Users Section */
+
+.pus {
+    text-align: center;
+    padding: 50px 80px;
+    margin-top: 115px;
+    margin-bottom: 138px;
+}
+
+.push {
+    padding-bottom: 40px;
+    font-family: 'raleway';
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.info-contain1 {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+    padding: none;
+   
+}
+
+.info-contain1 h2 {
+    padding-bottom: 10px;
+    font-family: 'inter';
+    font-size: 70px;
+    font-weight: bold;
+}
+
+
+.info-contain1 h4  {
+    font-family: 'inter';
+    font-size: 20px;
+    font-weight: normal;
+   
+}
