@@ -1,9 +1,31 @@
+/*Universal Property*/
+
 body {
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'raleway';
 }
 
+.primary-btn {
+    background-color: #4E47FF;
+    color: white;
+    text-align: center;
+    font-family: 'raleway';
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 12px 36px;
+}
 
+/*Header Section*/
+
+.nav-bar {
+    display: flex;
+   
+}
 
 .logo {
-    font-size: 50px;
+    font-family: 'inter';
+    font-weight: 800;
+    font-size: 34px;
+    color: #4E47FF;
 }
+
