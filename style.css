@@ -9,6 +9,25 @@ body {
     font-family: 'raleway';
 }
 
+/* Color Property */
+.primecol {
+    color: #4E47FF;
+}
+.black {
+    color: #252432;
+}
+
+.dark {
+    color: #000000;
+    opacity: 50%;
+}
+
+.dark2 {
+    color: #252432;
+    opacity: 50%;
+}
+
+
 .primary-btn {
     background-color: #4E47FF;
     color: white;
@@ -50,4 +69,34 @@ header {
     font-size: 65px;
 }
 
+/* Action Section */
+
+.as {
+    display: flex;
+    justify-content: space-around;
+    padding: 116px 141px;
+}
+
+.left-as {
+    display: inline;
+    max-width: 517px;
+    max-height: 203px;
+    padding: 63px 0px;
+}
+
+.left-as h2 {
+    font-size: 42px;
+    font-weight: bold;
+    padding-bottom: 23px;
+}
+
+.left-as h3 {
+    font-size: 24px;
+    font-weight: 300;
+    padding-bottom: 23px;
+}
+
+.right-as img{
+    border-radius: 48px;
+}
 
