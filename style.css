@@ -55,7 +55,6 @@ header {
 .logo {
     font-family: 'inter';
     font-weight: 800;
-    font-size: 34px;
     color: #4E47FF;
 }
 
@@ -141,3 +140,19 @@ header {
     font-weight: normal;
    
 }
+
+/* Footer Section */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+}   
+/* 
+.fl {
+    
+}
+
+.ft {
+    color: ;
+} */
