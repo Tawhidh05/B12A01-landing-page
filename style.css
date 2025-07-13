@@ -1,4 +1,9 @@
-/*Universal Property*/
+/*Universal and Shared Property*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'raleway';
@@ -8,18 +13,23 @@ body {
     background-color: #4E47FF;
     color: white;
     text-align: center;
-    font-family: 'raleway';
     font-weight: bold;
-    font-size: 16px;
-    border-radius: 10px;
+    font-size: 16px; 
     padding: 12px 36px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 /*Header Section*/
+header {
+    background-color: white;
+}
 
 .nav-bar {
     display: flex;
-   
+    align-content: center;
+    justify-content: space-between;
+    padding: 50px 150px;
 }
 
 .logo {
@@ -28,4 +38,16 @@ body {
     font-size: 34px;
     color: #4E47FF;
 }
+
+.banner {
+    display: inline-flexbox;
+    text-align: center;
+    padding: 200px 0px;
+}
+
+.banner h1{
+    font-weight: bold;
+    font-size: 65px;
+}
+
 
