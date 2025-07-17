@@ -100,42 +100,42 @@ header {
 /* Action Section */
 
 .as {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 116px 141px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 100px;
 }
 
 .left-as {
     display: flex;
     flex-direction: column;
-    width: 517px;
-    /* max-height: 500px; */
-    padding: 63px 0px;
+    max-width: 400px;
 }
 
 .left-as h2 {
     font-size: 42px;
     font-weight: bold;
-    padding-bottom: 23px;
+    margin-bottom: 23px; 
 }
 
 .left-as h3 {
     font-size: 24px;
     font-weight: 300;
-    padding-bottom: 23px;
+    margin-bottom: 23px; 
 }
 
 .right-as{
     display: flex;
     justify-content: center;
+    align-items: center; 
     width: 100%;
-
-    /* margin: 20px; */
 }
 
 .right-as img{
-    scale: 0.7;
+    width: 100%; 
+    max-width: 500px; /* Set a max-width to prevent it from getting too large */
+    height: auto;
     border-radius: 48px;
 }
 
@@ -249,24 +249,30 @@ header {
 /* Ready to focus better Section */
 
 .ready {
-    display: flex;
-    flex-direction: column;;
-    align-items: center;
-    width: 100%;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two-column layout */
+    align-items: center; /* Vertically center the content and image */
+    gap: 60px; /* Space between text and image */
     padding: 100px;
+    width: 100%;
 }
 
-.ready > h2 {
+.ready-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns text and button to the left */
+    gap: 20px;
+}
+
+.ready h2 {
     font-size: 50px;
     font-weight: bold;
 }
 
 .ready > img {
-    display: flex;
-    justify-content: center;
     width: 100%;
-    border-radius: 48px;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 24px;
 }
 
 /* Contact Section */
@@ -336,30 +342,27 @@ header {
 .footer{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 80px 120px;
-    margin: 100px 0px;
     flex-wrap: wrap;
-    
+    width: 100%;
 }   
 
 .ft {
-    display: block;
+    display: flex;
     text-align: center;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .fl h1{
-    display: block;
-    align-content: center;
-    text-align: center;
     padding-bottom: 15px;
 }
 
 .ftc{
-    display: inline-flex;
-    align-items: center;
-    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
     text-align: center;
     gap: 50px;
     font-size: 16px;
@@ -393,30 +396,30 @@ header {
 .banner {
     padding-bottom: 20px;
 }
-.banner h1{
+.banner > h1{
     font-size: 45px;
 }
 
+.as {
+    grid-template-columns: 1fr;
+    padding: 150px 20px; 
+    text-align: center; 
+    }
+
 .left-as {
-    max-width: 100%;
-    padding: 25px 0px;
+    align-items: center; 
+    }
 }
 
-.left-as h2 {
-    font-size: 32px;
-    text-align: center;
-}
+.ready {
+        grid-template-columns: 1fr; /* Stacks the grid into a single column */
+        padding: 100px 20px; /* Reduces padding for smaller screens */
+        text-align: center; /* Center-aligns text for a better mobile look */
+    }
 
-.left-as h3 {
-    font-size: 16px;
-    text-align: center;
-}
-
-.ready > img {
-    width: 200%;
-    padding: 20px 0px;
-    border-radius: 35px;
-}
+    .ready-content {
+        align-items: center;
+    }
 
 .contact-left h1 {
   font-size: 50px;
@@ -446,4 +449,12 @@ header {
   font-size: 0.5em;
 }
 
+
+.footer{
+    padding: 80px 0px;
+    scale: 0.7;
 }
+
+
+
+}  
