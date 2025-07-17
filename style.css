@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'raleway';
+    font-family: 'raleway', sans-serif;
     background-color: #FFFFFF;
 }
 
@@ -170,6 +170,71 @@ header {
    
 }
 
+/* Review Section */
+
+.reviews{
+    border: 1px #4E47FF solid;
+}
+
+.review-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    
+    padding: 150px, 0;
+}
+
+.review-header {
+    display: flex;
+    justify-content: center;
+    font-size: 42px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 365px;
+    height: 245px;
+    gap: 20px;
+    border: 1px #4E47FF solid;
+
+}
+
+.cards-container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: 300px;
+}
+
+
+
+
+/* Ready to focus better Section */
+
+.ready {
+    display: flex;
+    flex-direction: column;;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    padding: 100px;
+}
+
+.ready > h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.ready > img {
+    border-radius: 48px;
+}
+
 /* Contact Section */
 
 .contact-section {
@@ -235,7 +300,8 @@ header {
 /* Footer Section */
 
 .footer{
-    display: block;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     padding: 80px 120px;
     margin: 100px 0px;
